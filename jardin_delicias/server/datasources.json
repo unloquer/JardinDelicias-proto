@@ -1,0 +1,13 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "postgres": {
+    "host": "104.131.1.214",
+    "database": "jardin",
+    "name": "postgres",
+    "connector": "postgresql",
+    "user": "postgres"
+  }
+}
