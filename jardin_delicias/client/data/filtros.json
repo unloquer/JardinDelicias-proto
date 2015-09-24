@@ -1,0 +1,872 @@
+[
+  {
+    "nombre" : "tipificaciones",
+    "filtros" : [
+      {"codigo" : "A:1:10",
+       "grupo" : "A:1",
+       "nombre" : "EJECUCIÓN EXTRAJUDICIAL" },
+
+      {"codigo" : "A:1:11",
+       "grupo" : "A:1",
+       "nombre" : "DESAPARICIÓN" },
+
+      {"codigo" : "A:1:12",
+       "grupo" : "A:1",
+       "nombre" : "TORTURA" },
+
+      {"codigo" : "A:1:13",
+       "grupo" : "A:1",
+       "nombre" : "HERIDO" },
+
+      {"codigo" : "A:1:14",
+       "grupo" : "A:1",
+       "nombre" : "DETENCIÓN ARBITRARIA" },
+
+      {"codigo" : "A:1:15",
+       "grupo" : "A:1",
+       "nombre" : "AMENAZA" },
+
+      {"codigo" : "A:1:16",
+       "grupo" : "A:1",
+       "nombre" : "ATENTADO" },
+
+      {"codigo" : "A:1:17",
+       "grupo" : "A:1",
+       "nombre" : "SECUESTRO" },
+
+      {"codigo" : "A:1:18",
+       "grupo" : "A:1",
+       "nombre" : "COLECTIVO AMENAZADO" },
+
+      {"codigo" : "A:1:19",
+       "grupo" : "A:1",
+       "nombre" : "VIOLENCIA SEXUAL" },
+
+      {"codigo" : "A:1:101",
+       "grupo" : "A:1",
+       "nombre" : "DEPORTACIÓN" },
+
+      {"codigo" : "A:1:102",
+       "grupo" : "A:1",
+       "nombre" : "COLECTIVO DESPLAZADO" },
+
+      {"codigo" : "A:1:104",
+       "grupo" : "A:1",
+       "nombre" : "CONFINAMIENTO COMO REPRESALIA O CASTIGO COLECTIVO" },
+
+      {"codigo" : "A:1:191",
+       "grupo" : "A:1",
+       "nombre" : "V.S. - VIOLACIÓN" },
+
+      {"codigo" : "A:1:192",
+       "grupo" : "A:1",
+       "nombre" : "V.S. - EMBARAZO FORZADO" },
+
+      {"codigo" : "A:1:193",
+       "grupo" : "A:1",
+       "nombre" : "V.S. - PROSTITUCIÓN FORZADA" },
+
+      {"codigo" : "A:1:194",
+       "grupo" : "A:1",
+       "nombre" : "V.S. - ESTERELIZACIÓN FORZADA" },
+
+      {"codigo" : "A:1:195",
+       "grupo" : "A:1",
+       "nombre" : "V.S. - ESCLAVITUD SEXUAL" },
+
+      {"codigo" : "A:1:196",
+       "grupo" : "A:1",
+       "nombre" : "V.S. - ABUSO SEXUAL" },
+
+      {"codigo" : "A:1:197",
+       "grupo" : "A:1",
+       "nombre" : "V.S. - ABORTO FORZADO" },
+
+      {"codigo" : "A:2:20",
+       "grupo" : "A:2",
+       "nombre" : "EJECUCIÓN EXTRAJUDICIAL" },
+
+      {"codigo" : "A:2:21",
+       "grupo" : "A:2",
+       "nombre" : "DESAPARICIÓN" },
+
+      {"codigo" : "A:2:22",
+       "grupo" : "A:2",
+       "nombre" : "TORTURA" },
+
+      {"codigo" : "A:2:23",
+       "grupo" : "A:2",
+       "nombre" : "HERIDO" },
+
+      {"codigo" : "A:2:24",
+       "grupo" : "A:2",
+       "nombre" : "DETENCIÓN ARBITRARIA" },
+
+      {"codigo" : "A:2:25",
+       "grupo" : "A:2",
+       "nombre" : "AMENAZA" },
+
+      {"codigo" : "A:2:26",
+       "grupo" : "A:2",
+       "nombre" : "ATENTADO" },
+
+      {"codigo" : "A:2:28",
+       "grupo" : "A:2",
+       "nombre" : "COLECTIVO AMENAZADO" },
+
+      {"codigo" : "A:2:29",
+       "grupo" : "A:2",
+       "nombre" : "VIOLENCIA SEXUAL" },
+
+      {"codigo" : "A:2:291",
+       "grupo" : "A:2",
+       "nombre" : "V.S. - VIOLACIÓN" },
+
+      {"codigo" : "A:2:292",
+       "grupo" : "A:2",
+       "nombre" : "V.S. - EMBARAZO FORZADO" },
+
+      {"codigo" : "A:2:293",
+       "grupo" : "A:2",
+       "nombre" : "V.S. - PROSTITUCIÓN FORZADA" },
+
+      {"codigo" : "A:2:294",
+       "grupo" : "A:2",
+       "nombre" : "V.S. - ESTERELIZACIÓN FORZADA" },
+
+      {"codigo" : "A:2:295",
+       "grupo" : "A:2",
+       "nombre" : "V.S. - ESCLAVITUD SEXUAL" },
+
+      {"codigo" : "A:2:296",
+       "grupo" : "A:2",
+       "nombre" : "V.S. - ABUSO SEXUAL" },
+
+      {"codigo" : "A:2:297",
+       "grupo" : "A:2",
+       "nombre" : "V.S. - ABORTO FORZADO" },
+
+      {"codigo" : "A:3:30",
+       "grupo" : "A:3",
+       "nombre" : "EJECUCIÓN EXTRAJUDICIAL" },
+
+      {"codigo" : "A:3:31",
+       "grupo" : "A:3",
+       "nombre" : "DESAPARICION POR INTOLERANCIA SOCIAL" },
+
+      {"codigo" : "A:3:33",
+       "grupo" : "A:3",
+       "nombre" : "HERIDO" },
+
+      {"codigo" : "A:3:35",
+       "grupo" : "A:3",
+       "nombre" : "AMENAZA" },
+
+      {"codigo" : "A:3:36",
+       "grupo" : "A:3",
+       "nombre" : "TORTURA" },
+
+      {"codigo" : "A:3:37",
+       "grupo" : "A:3",
+       "nombre" : "ATENTADO" },
+
+      {"codigo" : "A:3:38",
+       "grupo" : "A:3",
+       "nombre" : "COLECTIVO AMENAZADO" },
+
+      {"codigo" : "A:3:39",
+       "grupo" : "A:3",
+       "nombre" : "VIOLENCIA SEXUAL" },
+
+      {"codigo" : "A:3:301",
+       "grupo" : "A:3",
+       "nombre" : "DETENCIÓN ARBITRARIA" },
+
+      {"codigo" : "A:3:302",
+       "grupo" : "A:3",
+       "nombre" : "DESAPARICIÓN" },
+
+      {"codigo" : "A:3:391",
+       "grupo" : "A:3",
+       "nombre" : "V.S. - VIOLACIÓN" },
+
+      {"codigo" : "A:3:392",
+       "grupo" : "A:3",
+       "nombre" : "V.S. - EMBARAZO FORZADO" },
+
+      {"codigo" : "A:3:393",
+       "grupo" : "A:3",
+       "nombre" : "V.S. - PROSTITUCIÓN FORZADA" },
+
+      {"codigo" : "A:3:394",
+       "grupo" : "A:3",
+       "nombre" : "V.S. - ESTERELIZACIÓN FORZADA" },
+
+      {"codigo" : "A:3:395",
+       "grupo" : "A:3",
+       "nombre" : "V.S. - ESCLAVITUD SEXUAL" },
+
+      {"codigo" : "A:3:396",
+       "grupo" : "A:3",
+       "nombre" : "V.S. - ABUSO SEXUAL" },
+
+      {"codigo" : "A:3:397",
+       "grupo" : "A:3",
+       "nombre" : "V.S. - ABORTO FORZADO" },
+
+      {"codigo" : "B:1:40",
+       "grupo" : "B:1",
+       "nombre" : "ASESINATO" },
+
+      {"codigo" : "B:1:41",
+       "grupo" : "B:1",
+       "nombre" : "SECUESTRO" },
+
+      {"codigo" : "B:1:43",
+       "grupo" : "B:1",
+       "nombre" : "HERIDO" },
+
+      {"codigo" : "B:1:45",
+       "grupo" : "B:1",
+       "nombre" : "AMENAZA" },
+
+      {"codigo" : "B:1:46",
+       "grupo" : "B:1",
+       "nombre" : "ATENTADO" },
+
+      {"codigo" : "B:1:47",
+       "grupo" : "B:1",
+       "nombre" : "TORTURA" },
+
+      {"codigo" : "B:1:48",
+       "grupo" : "B:1",
+       "nombre" : "RAPTO" },
+
+      {"codigo" : "B:1:49",
+       "grupo" : "B:1",
+       "nombre" : "COLECTIVO AMENAZADO" },
+
+      {"codigo" : "B:1:401",
+       "grupo" : "B:1",
+       "nombre" : "COLECTIVO DESPLAZADO" },
+
+      {"codigo" : "B:1:420",
+       "grupo" : "B:1",
+       "nombre" : "VIOLENCIA SEXUAL" },
+
+      {"codigo" : "B:1:421",
+       "grupo" : "B:1",
+       "nombre" : "V.S. - VIOLACIÓN" },
+
+      {"codigo" : "B:1:422",
+       "grupo" : "B:1",
+       "nombre" : "EMBARAZO FORZADO" },
+
+      {"codigo" : "B:1:423",
+       "grupo" : "B:1",
+       "nombre" : "PROSTITUCIÓN FORZADA" },
+
+      {"codigo" : "B:1:424",
+       "grupo" : "B:1",
+       "nombre" : "ESTERILIZACIÓN FORZADA" },
+
+      {"codigo" : "B:1:425",
+       "grupo" : "B:1",
+       "nombre" : "ESCLAVITUD SEXUAL" },
+
+      {"codigo" : "B:1:426",
+       "grupo" : "B:1",
+       "nombre" : "ABUSO SEXUAL" },
+
+      {"codigo" : "B:1:427",
+       "grupo" : "B:1",
+       "nombre" : "ABORTO FORZADO" },
+
+      {"codigo" : "B:2:50",
+       "grupo" : "B:2",
+       "nombre" : "ASESINATO" },
+
+      {"codigo" : "B:2:52",
+       "grupo" : "B:2",
+       "nombre" : "HERIDOS" },
+
+      {"codigo" : "B:2:53",
+       "grupo" : "B:2",
+       "nombre" : "HERIDO" },
+
+      {"codigo" : "B:2:55",
+       "grupo" : "B:2",
+       "nombre" : "AMENAZA" },
+
+      {"codigo" : "B:2:56",
+       "grupo" : "B:2",
+       "nombre" : "TORTURA" },
+
+      {"codigo" : "B:2:57",
+       "grupo" : "B:2",
+       "nombre" : "ATENTADO" },
+
+      {"codigo" : "B:2:58",
+       "grupo" : "B:2",
+       "nombre" : "RAPTO" },
+
+      {"codigo" : "B:2:59",
+       "grupo" : "B:2",
+       "nombre" : "COLECTIVO AMENAZADO" },
+
+      {"codigo" : "B:2:501",
+       "grupo" : "B:2",
+       "nombre" : "COLECTIVO DESPLAZADO" },
+
+      {"codigo" : "B:2:520",
+       "grupo" : "B:2",
+       "nombre" : "VIOLENCIA SEXUAL" },
+
+      {"codigo" : "B:2:521",
+       "grupo" : "B:2",
+       "nombre" : "V.S. - VIOLACIÓN" },
+
+      {"codigo" : "B:2:522",
+       "grupo" : "B:2",
+       "nombre" : "EMBARAZO FORZADO" },
+
+      {"codigo" : "B:2:523",
+       "grupo" : "B:2",
+       "nombre" : "PROSTITUCIÓN FORZADA" },
+
+      {"codigo" : "B:2:524",
+       "grupo" : "B:2",
+       "nombre" : "ESTERILIZACIÓN FORZADA" },
+
+      {"codigo" : "B:2:525",
+       "grupo" : "B:2",
+       "nombre" : "ESCLAVITUD SEXUAL" },
+
+      {"codigo" : "B:2:526",
+       "grupo" : "B:2",
+       "nombre" : "ABUSO SEXUAL" },
+
+      {"codigo" : "B:2:527",
+       "grupo" : "B:2",
+       "nombre" : "ABORTO FORZADO" },
+
+      {"codigo" : "C:1:60",
+       "grupo" : "C:1",
+       "nombre" : "HOSTIGAMIENTO" },
+
+      {"codigo" : "C:1:61",
+       "grupo" : "C:1",
+       "nombre" : "ASALTO - TOMA" },
+
+      {"codigo" : "C:1:62",
+       "grupo" : "C:1",
+       "nombre" : "COMBATE" },
+
+      {"codigo" : "C:1:63",
+       "grupo" : "C:1",
+       "nombre" : "EMBOSCADA" },
+
+      {"codigo" : "C:1:64",
+       "grupo" : "C:1",
+       "nombre" : "CAMPO MINADO" },
+
+      {"codigo" : "C:1:65",
+       "grupo" : "C:1",
+       "nombre" : "BOMBARDEOS / AMETRALLAMIENTO" },
+
+      {"codigo" : "C:1:66",
+       "grupo" : "C:1",
+       "nombre" : "BLOQUEO DE VíAS" },
+
+      {"codigo" : "C:1:67",
+       "grupo" : "C:1",
+       "nombre" : "ATAQUE A OBJETIVOS MILITARES" },
+
+      {"codigo" : "C:1:68",
+       "grupo" : "C:1",
+       "nombre" : "INCURSIÓN" },
+
+      {"codigo" : "C:1:69",
+       "grupo" : "C:1",
+       "nombre" : "SABOTAJE" },
+
+      {"codigo" : "C:1:910",
+       "grupo" : "C:1",
+       "nombre" : "ENFRENTAMIENTO - INTERNO" },
+
+      {"codigo" : "D:1:70",
+       "grupo" : "D:1",
+       "nombre" : "HOMICIDIO FC" },
+
+      {"codigo" : "D:1:71",
+       "grupo" : "D:1",
+       "nombre" : "HERIDO FC" },
+
+      {"codigo" : "D:1:72",
+       "grupo" : "D:1",
+       "nombre" : "TORTURA" },
+
+      {"codigo" : "D:1:73",
+       "grupo" : "D:1",
+       "nombre" : "AMENAZA" },
+
+      {"codigo" : "D:1:74",
+       "grupo" : "D:1",
+       "nombre" : "TOMA DE REHÉN" },
+
+      {"codigo" : "D:1:75",
+       "grupo" : "D:1",
+       "nombre" : "RECLUTAMIENTO DE MENORES" },
+
+      {"codigo" : "D:1:76",
+       "grupo" : "D:1",
+       "nombre" : "DESPLAZAMIENTO FORZADO" },
+
+      {"codigo" : "D:1:77",
+       "grupo" : "D:1",
+       "nombre" : "VIOLENCIA SEXUAL" },
+
+      {"codigo" : "D:1:78",
+       "grupo" : "D:1",
+       "nombre" : "ESCUDO" },
+
+      {"codigo" : "D:1:79",
+       "grupo" : "D:1",
+       "nombre" : "DESAPARICION" },
+
+      {"codigo" : "D:1:87",
+       "grupo" : "D:1",
+       "nombre" : "MUERTO EN ATAQUE A BIENES CIVILES" },
+
+      {"codigo" : "D:1:88",
+       "grupo" : "D:1",
+       "nombre" : "HERIDO EN ATAQUE A BIENES CIVILES" },
+
+      {"codigo" : "D:1:97",
+       "grupo" : "D:1",
+       "nombre" : "MUERTO POR MÉTODOS Y MEDIOS ILÍCITOS" },
+
+      {"codigo" : "D:1:98",
+       "grupo" : "D:1",
+       "nombre" : "HERIDO POR MÉTODOS Y MEDIOS ILÍCITOS" },
+
+      {"codigo" : "D:1:701",
+       "grupo" : "D:1",
+       "nombre" : "HOMICIDIO INTENCIONAL PERSONA PROTEGIDA" },
+
+      {"codigo" : "D:1:702",
+       "grupo" : "D:1",
+       "nombre" : "HERIDO INTENCIONAL PERSONA PROTEGIDA" },
+
+      {"codigo" : "D:1:703",
+       "grupo" : "D:1",
+       "nombre" : "CIVIL MUERTO EN ACCIONES BÉLICAS" },
+
+      {"codigo" : "D:1:704",
+       "grupo" : "D:1",
+       "nombre" : "CIVIL HERIDO EN ACCIONES BÉLICAS" },
+
+      {"codigo" : "D:1:706",
+       "grupo" : "D:1",
+       "nombre" : "COLECTIVO AMENAZADO" },
+
+      {"codigo" : "D:1:771",
+       "grupo" : "D:1",
+       "nombre" : "V.S. - VIOLACIÓN" },
+
+      {"codigo" : "D:1:772",
+       "grupo" : "D:1",
+       "nombre" : "EMBARAZO FORZADO" },
+
+      {"codigo" : "D:1:773",
+       "grupo" : "D:1",
+       "nombre" : "PROSTITUCIÓN FORZADA" },
+
+      {"codigo" : "D:1:774",
+       "grupo" : "D:1",
+       "nombre" : "ESTERILIZACIÓN FORZADA" },
+
+      {"codigo" : "D:1:775",
+       "grupo" : "D:1",
+       "nombre" : "ESCLAVITUD SEXUAL" },
+
+      {"codigo" : "D:1:776",
+       "grupo" : "D:1",
+       "nombre" : "ABUSO SEXUAL" },
+
+      {"codigo" : "D:1:777",
+       "grupo" : "D:1",
+       "nombre" : "ABORTO FORZADO" },
+
+      {"codigo" : "D:1:903",
+       "grupo" : "D:1",
+       "nombre" : "COLECTIVO DESPLAZADO" },
+
+      {"codigo" : "D:1:904",
+       "grupo" : "D:1",
+       "nombre" : "ESCUDO" },
+
+      {"codigo" : "D:1:906",
+       "grupo" : "D:1",
+       "nombre" : "CONFINAMIENTO COMO REPRESALIA O CASTIGO COLECTIVO" },
+
+      {"codigo" : "D:2:80",
+       "grupo" : "D:2",
+       "nombre" : "BIENES CIVILES" },
+
+      {"codigo" : "D:2:81",
+       "grupo" : "D:2",
+       "nombre" : "OLEODUCTOS" },
+
+      {"codigo" : "D:2:82",
+       "grupo" : "D:2",
+       "nombre" : "INFRAESTRUCTURA ELECTRICA Y COMUNICACIONES" },
+
+      {"codigo" : "D:2:83",
+       "grupo" : "D:2",
+       "nombre" : "INFRAESTRUCTURA VIAL" },
+
+      {"codigo" : "D:2:84",
+       "grupo" : "D:2",
+       "nombre" : "INFRACCIÓN CONTRA EL MEDIO AMBIENTE" },
+
+      {"codigo" : "D:2:85",
+       "grupo" : "D:2",
+       "nombre" : "INFRACCIÓN CONTRA BIENES CULTURALES Y RELIGIOSOS" },
+
+      {"codigo" : "D:2:86",
+       "grupo" : "D:2",
+       "nombre" : "BIENES INDISPENSABLES PARA LA SUPERV. DE LA POB." },
+
+      {"codigo" : "D:2:89",
+       "grupo" : "D:2",
+       "nombre" : "INFRACCIÓN CONTRA LA ESTRUCTURA VIAL" },
+
+      {"codigo" : "D:2:801",
+       "grupo" : "D:2",
+       "nombre" : "ATAQUE A OBRAS / INSTALACIONES QUE CONT. FUERZAS PELIGROSAS" },
+
+      {"codigo" : "D:3:90",
+       "grupo" : "D:3",
+       "nombre" : "AMETRALLAMIENTO Y/O BOMBARDEO INDISCRIMINADO" },
+
+      {"codigo" : "D:3:91",
+       "grupo" : "D:3",
+       "nombre" : "PERFIDIA" },
+
+      {"codigo" : "D:3:92",
+       "grupo" : "D:3",
+       "nombre" : "ARMA PROHIBIDA" },
+
+      {"codigo" : "D:3:93",
+       "grupo" : "D:3",
+       "nombre" : "MINA ILÍCITA / ARMA TRAMPA" },
+
+      {"codigo" : "D:3:94",
+       "grupo" : "D:3",
+       "nombre" : "MATERIAL BÉLICO ABANDONADO" },
+
+      {"codigo" : "D:3:95",
+       "grupo" : "D:3",
+       "nombre" : "PILLAJE" },
+
+      {"codigo" : "D:3:99",
+       "grupo" : "D:3",
+       "nombre" : "DESPLAZAMIENTO FORZADO" },
+
+      {"codigo" : "D:3:707",
+       "grupo" : "D:3",
+       "nombre" : "INFRACCIÓN CONTRA MISIÓN MEDICA" },
+
+      {"codigo" : "D:3:708",
+       "grupo" : "D:3",
+       "nombre" : "INFRACCIÓN CONTRA MISIÓN RELIGIOSA" },
+
+      {"codigo" : "D:3:709",
+       "grupo" : "D:3",
+       "nombre" : "INFRACCIÓN CONTRA MISIÓN HUMANITARIA" },
+
+      {"codigo" : "D:3:901",
+       "grupo" : "D:3",
+       "nombre" : "COMUNIDAD DESPLAZADA" },
+
+      {"codigo" : "D:3:902",
+       "grupo" : "D:3",
+       "nombre" : "DESPLAZAMIENTO FORZADO COLECTIVO" }
+    ]
+  },
+  {
+    "nombre" : "responsable",
+    "filtros" :
+    [{
+      "codigo":"34",
+      "nombre" : "INFORMACION CONTRADICTORIA",
+	    "grupo" : ""
+    },
+     {
+       "codigo":"35",
+       "nombre" : "SIN INFORMACIÓN",
+	     "grupo" : ""
+     },
+     {
+       "codigo":"36",
+       "nombre" : "OTROS",
+	     "grupo" : ""
+     },
+     {
+       "codigo":"3",
+       "nombre" : "FUERZAS MILITARES",
+	     "grupo" : "ESTADO"
+     },
+     {
+       "codigo":"4",
+       "nombre" : "EJERCITO",
+	     "grupo" : "ESTADO"
+     },
+     {
+       "codigo":"5",
+       "nombre" : "ARMADA",
+	     "grupo" : "ESTADO"
+     },
+     {
+       "codigo":"6",
+       "nombre" : "FUERZA AEREA",
+	     "grupo" : "ESTADO"
+     },
+     {
+       "codigo":"7",
+       "nombre" : "POLICÍA",
+	     "grupo" : "ESTADO"
+     },
+     {
+       "codigo":"11",
+       "nombre" : "INPEC",
+	     "grupo" : "ESTADO"
+     },
+     {
+       "codigo":"8",
+       "nombre" : "GAULA",
+	     "grupo" : "ESTADO"
+     },
+     {
+       "codigo":"9",
+       "nombre" : "SIJIN",
+	     "grupo" : "ESTADO"
+     },
+     {
+       "codigo":"10",
+       "nombre" : "DIJIN",
+	     "grupo" : "ESTADO"
+     },
+     {
+       "codigo":"15",
+       "nombre" : "AUC",
+	     "grupo" : "AUTODEFENSAS"
+     },
+     {
+       "codigo":"16",
+       "nombre" : "ACCU",
+	     "grupo" : "AUTODEFENSAS"
+     },
+     {
+       "codigo":"17",
+       "nombre" : "AUTODEFENSAS DE PUERTO BOYACA",
+	     "grupo" : "AUTODEFENSAS"
+     },
+     {
+       "codigo":"18",
+       "nombre" : "AUTODEFENSAS DE RAMON ISAZA",
+	     "grupo" : "AUTODEFENSAS"
+     },
+     {
+       "codigo":"19",
+       "nombre" : "AUTODEFENSAS DE LOS LLANOS ORIENTALES",
+	     "grupo" : "AUTODEFENSAS"
+     },
+     {
+       "codigo":"20",
+       "nombre" : "AUTODEFENSAS DE SANTANDER Y SUR DEL CESAR",
+	     "grupo" : "AUTODEFENSAS"
+     },
+     {
+       "codigo":"21",
+       "nombre" : "AUTODEFENSAS DE CASANARE",
+	     "grupo" : "AUTODEFENSAS"
+     },
+     {
+       "codigo":"22",
+       "nombre" : "AUTODEFENSAS DE CUNDINAMARCA",
+	     "grupo" : "AUTODEFENSAS"
+     },
+     {
+       "codigo":"23",
+       "nombre" : "AUTODEFENSAS CAMPESINAS DEL MAGDALENA MEDIO, ACMM",
+	     "grupo" : "AUTODEFENSAS"
+     },
+     {
+       "codigo":"26",
+       "nombre" : "MILICIAS",
+	     "grupo" : "GUERRILLA"
+     },
+     {
+       "codigo":"27",
+       "nombre" : "FARC-EP",
+	     "grupo" : "GUERRILLA"
+     },
+     {
+       "codigo":"28",
+       "nombre" : "ELN",
+	     "grupo" : "GUERRILLA"
+     },
+     {
+       "codigo":"29",
+       "nombre" : "MOVIMIENTO JAIME BATEMAN CAYON",
+	     "grupo" : "GUERRILLA"
+     },
+     {
+       "codigo":"30",
+       "nombre" : "ERP",
+	     "grupo" : "GUERRILLA"
+     },
+     {
+       "codigo":"31",
+       "nombre" : "EPL",
+	     "grupo" : "GUERRILLA"
+     },
+     {
+       "codigo":"32",
+       "nombre" : "ERG",
+	     "grupo" : "GUERRILLA"
+     },
+     {
+       "codigo":"13",
+       "nombre" : "CTI",
+	     "grupo" : "ESTADO"
+     },
+     {
+       "codigo":"24",
+       "nombre" : "AGENTE EXTRANJERO",
+	     "grupo" : ""
+     },
+     {
+       "codigo":"37",
+       "nombre" : "COMBATIENTES",
+	     "grupo" : ""
+     },
+     {
+       "codigo":"39",
+       "nombre" : "POLO ESTATAL",
+	     "grupo" : ""
+     },
+     {
+       "codigo":"1",
+       "nombre" : "ESTADO COLOMBIANO",
+	     "grupo" : "ESTADO"
+     },
+     {
+       "codigo":"2",
+       "nombre" : "FUERZA PUBLICA",
+	     "grupo" : "ESTADO"
+     },
+     {
+       "codigo":"12",
+       "nombre" : "DAS",
+	     "grupo" : "ESTADOS"
+     },
+     {
+       "codigo":"14",
+       "nombre" : "PARAMILITARES",
+	     "grupo" : "AUTODEFENSAS"
+     },
+     {
+       "codigo":"38",
+       "nombre" : "FISCALIA",
+	     "grupo" : "ESTADO"
+     },
+     {
+       "codigo":"40",
+       "nombre" : "POLO INSURGENTE",
+	     "grupo" : "GUERRILLA"
+     },
+     {
+       "codigo":"25",
+       "nombre" : "GUERRILLA",
+	     "grupo" : "GUERRILLA"
+     },
+     {
+       "codigo":"33",
+       "nombre" : "GRUPOS DE INTOLERANCIA",
+       "grupo" : ""
+     }]
+  }
+  ,
+  {
+    "nombre" : "ubicación",
+    "filtros" : [
+      { "nombre" : "Amazonas",
+        "codigo" : "91"},
+      { "nombre" : "Antioquia",
+        "codigo" : "05"},
+      { "nombre" : "Arauca",
+        "codigo" : "81"},
+      { "nombre" : "Atlántico",
+        "codigo" : "08"},
+      { "nombre" : "Bolívar",
+        "codigo" : "13"},
+      { "nombre" : "Boyacá",
+        "codigo" : "15"},
+      { "nombre" : "Caldas",
+        "codigo" : "17"},
+      { "nombre" : "Caquetá",
+        "codigo" : "18"},
+      { "nombre" : "Casanare",
+        "codigo" : "85"},
+      { "nombre" : "Cauca",
+        "codigo" : "19"},
+      { "nombre" : "Cesar",
+        "codigo" : "20"},
+      { "nombre" : "Chocó",
+        "codigo" : "27"},
+      { "nombre" : "Córdoba",
+        "codigo" : "23"},
+      { "nombre" : "Cundinamarca",
+        "codigo" : "25"},
+      { "nombre" : "Guainía",
+        "codigo" : "94"},
+      { "nombre" : "Guaviare",
+        "codigo" : "95"},
+      { "nombre" : "Huila",
+        "codigo" : "41"},
+      { "nombre" : "La Guajira",
+        "codigo" : "44"},
+      { "nombre" : "Magdalena",
+        "codigo" : "47"},
+      { "nombre" : "Meta",
+        "codigo" : "50"},
+      { "nombre" : "Nariño",
+        "codigo" : "52"},
+      { "nombre" : "Norte de Santander",
+        "codigo" : "54"},
+      { "nombre" : "Putumayo",
+        "codigo" : "86"},
+      { "nombre" : "Quindío",
+        "codigo" : "63"},
+      { "nombre" : "Risaralda",
+        "codigo" : "66"},
+      { "nombre" : "San Andrés y Providencia",
+        "codigo" : "88"},
+      { "nombre" : "Santander",
+        "codigo" : "68"},
+      { "nombre" : "Sucre",
+        "codigo" : "70"},
+      { "nombre" : "Tolima",
+        "codigo" : "73"},
+      { "nombre" : "Valle del Cauca",
+        "codigo" : "76"},
+      { "nombre" : "Vaupés",
+        "codigo" : "97"},
+      { "nombre" : "Vichada",
+        "codigo" : "99"}
+    ]
+  }
+]
