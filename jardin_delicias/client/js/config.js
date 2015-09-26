@@ -65,6 +65,7 @@ function config($stateProvider, $urlRouterProvider, $ocLazyLoadProvider) {
       }
     });
 }
+
 angular
   .module('victimas')
   .config(config)

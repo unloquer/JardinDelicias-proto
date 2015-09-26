@@ -35,5 +35,9 @@
   "sensor": {
     "dataSource": "postgres",
     "public": true
+  },
+  "SensorData": {
+    "dataSource": "postgres",
+    "public": true
   }
 }
