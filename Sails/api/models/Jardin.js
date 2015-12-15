@@ -8,7 +8,14 @@
 module.exports = {
 
   attributes: {
-
+    nombre : {
+      type : 'String'
+    },
+    descripcion : {
+      type : 'String'
+    },
+    ubicación : {
+      type : 'String'
+    }
   }
 };
-

@@ -8,7 +8,14 @@
 module.exports = {
 
   attributes: {
-
+    fecha : {
+      type : 'datetime'
+    },
+    recursoId : {
+      type : 'String' // String por ahora cambiar a la association adecuada
+    },
+    comentario : {
+      type : 'String'
+    }
   }
 };
-

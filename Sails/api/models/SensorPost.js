@@ -8,7 +8,14 @@
 module.exports = {
 
   attributes: {
-
+    sensorId : {
+      type : 'String' // String por ahora cambiar a la association adecuada
+    },
+    valor : {
+      type : 'Float'
+    },
+    fecha : {
+      type : 'datetime'
+    }
   }
 };
-

@@ -8,7 +8,23 @@
 module.exports = {
 
   attributes: {
-
+    nombre : {
+      type : 'String'
+    },
+    descripcion : {
+      type : 'String'
+    },
+    ubicacion : {
+      type : 'String' // ¿Cómo es apropiado guardar un geo_point
+    },
+    tipo : {
+      type : 'String' // Temperatura, Humedad, Ph, etcétera
+    },
+    valorMax : {
+      type : 'Float'
+    },
+    valorMin : {
+      type : 'Float'
+    }
   }
 };
-
