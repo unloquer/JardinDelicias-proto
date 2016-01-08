@@ -21,14 +21,18 @@ module.exports = {
       type : 'String' // ¿Cómo es apropiado guardar un geo_point
     },
     sensores : {
-      collection : 'sensor', // Verificar si es correcta la association. Un recurso puede tener varios sensores que no son exclusivos de
-      via : 'recursos'
+      collection : 'Sensor', // Verificar si es correcta la association. Un recurso puede tener varios sensores que no son exclusivos de
+      via : 'recursoId'
     },
     jardinID : {
       type : 'String' // String por ahora cambiar a la association adecuada
     },
     userId : {
       type : 'String' // String por ahora cambiar a la association adecuada
+    },
+    novedades : {
+      collection: 'Novedad',
+      via : 'recursoId'
     }
   }
 };

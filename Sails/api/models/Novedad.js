@@ -12,7 +12,7 @@ module.exports = {
       type : 'datetime'
     },
     recursoId : {
-      type : 'String' // String por ahora cambiar a la association adecuada
+      model : 'Recurso'
     },
     comentario : {
       type : 'String'

@@ -25,6 +25,13 @@ module.exports = {
     },
     valorMin : {
       type : 'Float'
+    },
+    recursoId : {
+      model : 'Recurso'
+    },
+    sensorPosts : {
+      collection : 'SensorPost',
+      via : 'sensorId'
     }
   }
 };
