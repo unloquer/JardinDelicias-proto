@@ -1,0 +1,81 @@
+{
+  "name": "aurelia-fetch-client",
+  "version": "1.0.0-beta.1.0.1",
+  "description": "A simple client based on the Fetch standard.",
+  "keywords": [
+    "aurelia",
+    "http",
+    "ajax",
+    "fetch"
+  ],
+  "homepage": "http://aurelia.io",
+  "bugs": {
+    "url": "https://github.com/aurelia/fetch-client/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Rob Eisenberg",
+    "email": "rob@bluespire.com",
+    "url": "http://robeisenberg.com/"
+  },
+  "main": "aurelia-fetch-client",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/aurelia/fetch-client"
+  },
+  "jspmNodeConversion": false,
+  "jspm": {
+    "main": "aurelia-fetch-client",
+    "format": "amd",
+    "directories": {
+      "lib": "dist/amd"
+    },
+    "dependencies": {
+      "core-js": "npm:core-js@^1.2.6"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.1.13",
+      "babel-runtime": "npm:babel-runtime@^5.1.13",
+      "core-js": "npm:core-js@^1.2.6"
+    }
+  },
+  "devDependencies": {
+    "babel": "npm:babel-core@^5.1.13",
+    "babel-runtime": "npm:babel-runtime@^5.1.13",
+    "core-js": "npm:core-js@^1.2.6"
+  },
+  "aurelia": {
+    "documentation": {
+      "articles": []
+    }
+  },
+  "gitHead": "5ecdd6698e5946b530aabab1efb96a392650a830",
+  "_id": "aurelia-fetch-client@1.0.0-beta.1.0.1",
+  "scripts": {},
+  "_shasum": "2f6639b3475bb98ff3775c8feb9fb0c6af2d683b",
+  "_from": ".",
+  "_npmVersion": "2.10.1",
+  "_nodeVersion": "0.12.4",
+  "_npmUser": {
+    "name": "aureliaeffect",
+    "email": "info@durandal.io"
+  },
+  "dist": {
+    "shasum": "2f6639b3475bb98ff3775c8feb9fb0c6af2d683b",
+    "tarball": "http://registry.npmjs.org/aurelia-fetch-client/-/aurelia-fetch-client-1.0.0-beta.1.0.1.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "aureliaeffect",
+      "email": "info@durandal.io"
+    }
+  ],
+  "directories": {
+    "lib": "dist/amd"
+  },
+  "format": "amd",
+  "registry": "npm",
+  "dependencies": {
+    "core-js": "npm:core-js@^1.2.6"
+  }
+}

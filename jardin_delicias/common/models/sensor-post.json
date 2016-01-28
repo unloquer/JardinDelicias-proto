@@ -1,0 +1,27 @@
+{
+  "name": "SensorPost",
+  "plural": "sensor-posts",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "table": "sensor_post"
+  },
+  "properties": {
+    "sensorId": {
+      "type": "string",
+      "required": true
+    },
+    "value": {
+      "type": "number",
+      "required": true
+    },
+    "timestamp": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}

@@ -32,11 +32,15 @@
     "dataSource": "db",
     "public": false
   },
-  "sensor": {
+  "Sensor": {
     "dataSource": "postgres",
     "public": true
   },
   "SensorData": {
+    "dataSource": "postgres",
+    "public": true
+  },
+  "SensorPost": {
     "dataSource": "postgres",
     "public": true
   }

@@ -1,5 +1,5 @@
 {
-  "name": "sensor",
+  "name": "Sensor",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {

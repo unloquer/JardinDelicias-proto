@@ -1,0 +1,242 @@
+<template>
+  <require from="bootstrap/css/bootstrap.css"></require>
+  <require from="font-awesome/css/font-awesome.css"></require>
+
+  <div class="navbar navbar-default navbar-static-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-ex-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#"><span>Brand</span></a>
+      </div>
+      <div class="collapse navbar-collapse" id="navbar-ex-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active">
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#">Contacts</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section">
+            <!-- Jardín -->
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12">
+                  <h1>Inventario Jardín</h1>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisici elit,
+                    <br>sed eiusmod tempor incidunt ut labore et dolore magna aliqua.
+                    <br>Ut enim ad minim veniam, quis nostrud</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th>ID
+                          <br>
+                        </th>
+                        <th>Recurso</th>
+                        <th>Cantidad</th>
+                        <th>Tipo</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>1</td>
+                        <td>Lechuga</td>
+                        <td>7</td>
+                        <td>Hortalizas</td>
+                      </tr>
+                      <tr>
+                        <td>2</td>
+                        <td>Albahaca</td>
+                        <td>3</td>
+                        <td>Plantas Aromáticas</td>
+                      </tr>
+                      <tr>
+                        <td>3</td>
+                        <td>Vermicultivo</td>
+                        <td>2</td>
+                        <td>Biofertilizante</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div class="col-md-6">
+                  <!-- Formulario Inventario -->
+                  <form role="form">
+                    <div class="form-group">
+                      <label class="control-label" for="inventario-recurso">Recurso</label>
+                      <input class="form-control" id="inventario-recurso" placeholder="Recurso">
+                    </div>
+                    <div class="form-group">
+                      <label class="control-label" for="inventario-descripcion">Descripción</label>
+                      <input class="form-control" id="inventario-descripcion"
+                      placeholder="Descripción" type="text">
+                    </div>
+                    <div class="form-group">
+                      <label class="control-label" for="inventario-descripcion">Tipo de Recurso</label>
+                      <div class="btn-group btn-group-xs form-control"
+                      id="inventario-tipo-recurso">
+                        <a class="active btn btn-link dropdown-toggle" data-toggle="dropdown"> Seleccione <span class="fa fa-caret-down"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                          <li>
+                            <a href="#">Planta</a>
+                          </li>
+                          <li>
+                            <a href="#">Plántula</a>
+                          </li>
+                          <li>
+                            <a href="#">Biofertilizante</a>
+                          </li>
+                          <li>
+                            <a href="#">Semillas</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label class="control-label" for="inventario-descripcion">Fecha de Cultivo</label>
+                      <input class="form-control" id="inventario-descripcion"
+                      placeholder="Descripción" type="text">
+                    </div>
+                    <div class="form-group">
+                      <label class="control-label" for="inventario-recurso">Foto</label>
+                      <input class="form-control" id="inventario-recurso" placeholder="Foto"
+                      type="text">
+                    </div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="section">
+            <!-- Sensores -->
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12">
+                  <h1>Sensores</h1>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisici elit,
+                    <br>sed eiusmod tempor incidunt ut labore et dolore magna aliqua.
+                    <br>Ut enim ad minim veniam, quis nostrud</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th>ID</th>
+                        <th>Nombre</th>
+                        <th>Tipo</th>
+                        <th>Valor</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>1</td>
+                        <td>Humedad C3P - Cajón #1</td>
+                        <td>Humedad</td>
+                        <td>12</td>
+                      </tr>
+                      <tr>
+                        <td>2</td>
+                        <td>Temperatura C3P - Cajón #1</td>
+                        <td>Temperatura</td>
+                        <td>23º</td>
+                      </tr>
+                      <tr>
+                        <td>3</td>
+                        <td>Ph Vermicultivo</td>
+                        <td>Galvánico</td>
+                        <td>7</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div class="col-md-6">
+                  <!-- Formulario Inventario -->
+                  <form role="form">
+                    <div class="form-group">
+                      <label class="control-label" for="sensor-nombre">Nombre</label>
+                      <input class="form-control" id="sensor-nombre" placeholder="Nombre"
+                      type="email">
+                    </div>
+                    <div class="form-group">
+                      <label class="control-label" for="sensor-descripcion">Descripción</label>
+                      <input class="form-control" id="sensor-descripcion"
+                      placeholder="Descripción" type="Descripción">
+                    </div>
+                    <div class="form-group">
+                      <label class="control-label" for="sensor-tipo">Tipo de Sensor</label>
+                      <input class="form-control" id="sensor-tipo" placeholder="Tipo de Sensor"
+                      type="Descripción">
+                    </div>
+                    <div class="form-group">
+                      <label class="control-label" for="sensor-maximo">Valor Máximo</label>
+                      <input class="form-control" id="sensor-maximo" placeholder="Valor Máximo"
+                      type="Valor Máximo">
+                    </div>
+                    <div class="form-group">
+                      <label class="control-label" for="sensor-minimo">Valor Mínimo</label>
+                      <input class="form-control" id="sensor-minimo" placeholder="Valor Mínimo"
+                      type="Valor Mínimo">
+                    </div>
+                    <button type="submit" class="btn btn-default">Enviar</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle Navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">
+        <i class="fa fa-home"></i>
+        <span>${router.title}</span>
+      </a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li repeat.for="row of router.navigation" class="${row.isActive ? 'active' : ''}">
+          <a href.bind="row.href">${row.title}</a>
+        </li>
+      </ul>
+
+      <ul class="nav navbar-nav navbar-right">
+        <li class="loader" if.bind="router.isNavigating">
+          <i class="fa fa-spinner fa-spin fa-2x"></i>
+        </li>
+      </ul>
+    </div>
+  </nav -->
+
+  <div class="page-host">
+    <router-view></router-view>
+  </div>
+</template>

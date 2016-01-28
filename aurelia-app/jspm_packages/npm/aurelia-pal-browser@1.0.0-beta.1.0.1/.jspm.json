@@ -1,0 +1,79 @@
+{
+  "name": "aurelia-pal-browser",
+  "version": "1.0.0-beta.1.0.1",
+  "description": "The browser-specific implementation of Aurelia's platform abstraction layer.",
+  "keywords": [
+    "aurelia",
+    "pal"
+  ],
+  "homepage": "http://aurelia.io",
+  "bugs": {
+    "url": "https://github.com/aurelia/pal-browser/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Rob Eisenberg",
+    "email": "rob@bluespire.com",
+    "url": "http://robeisenberg.com/"
+  },
+  "main": "aurelia-pal-browser",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/aurelia/pal-browser"
+  },
+  "jspmNodeConversion": false,
+  "jspm": {
+    "main": "aurelia-pal-browser",
+    "format": "amd",
+    "directories": {
+      "lib": "dist/amd"
+    },
+    "dependencies": {
+      "aurelia-pal": "npm:aurelia-pal@^1.0.0-beta.1.0.1"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.22",
+      "babel-runtime": "npm:babel-runtime@^5.8.20",
+      "core-js": "npm:core-js@^1.2.6"
+    }
+  },
+  "devDependencies": {
+    "babel": "npm:babel-core@^5.8.22",
+    "babel-runtime": "npm:babel-runtime@^5.8.20",
+    "core-js": "npm:core-js@^1.2.6"
+  },
+  "aurelia": {
+    "documentation": {
+      "articles": []
+    }
+  },
+  "gitHead": "664762bb7daed8b140e83bc97b51a808b399303a",
+  "_id": "aurelia-pal-browser@1.0.0-beta.1.0.1",
+  "scripts": {},
+  "_shasum": "f00c90872a2278a51ab9b08a555f48ab1e59110d",
+  "_from": ".",
+  "_npmVersion": "2.10.1",
+  "_nodeVersion": "0.12.4",
+  "_npmUser": {
+    "name": "aureliaeffect",
+    "email": "info@durandal.io"
+  },
+  "dist": {
+    "shasum": "f00c90872a2278a51ab9b08a555f48ab1e59110d",
+    "tarball": "http://registry.npmjs.org/aurelia-pal-browser/-/aurelia-pal-browser-1.0.0-beta.1.0.1.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "aureliaeffect",
+      "email": "info@durandal.io"
+    }
+  ],
+  "directories": {
+    "lib": "dist/amd"
+  },
+  "format": "amd",
+  "registry": "npm",
+  "dependencies": {
+    "aurelia-pal": "npm:aurelia-pal@^1.0.0-beta.1.0.1"
+  }
+}
