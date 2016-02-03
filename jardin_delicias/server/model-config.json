@@ -33,15 +33,15 @@
     "public": false
   },
   "Sensor": {
-    "dataSource": "postgres",
+    "dataSource": "mongo",
     "public": true
   },
   "SensorData": {
-    "dataSource": "postgres",
+    "dataSource": "mongo",
     "public": true
   },
   "SensorPost": {
-    "dataSource": "postgres",
+    "dataSource": "mongo",
     "public": true
   }
 }

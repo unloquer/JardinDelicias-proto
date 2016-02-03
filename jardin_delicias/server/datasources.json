@@ -3,11 +3,10 @@
     "name": "db",
     "connector": "memory"
   },
-  "postgres": {
+  "mongo": {
+    "name": "mongoDB",
     "host": "104.131.1.214",
     "database": "jardin",
-    "name": "postgres",
-    "connector": "postgresql",
-    "user": "postgres"
+    "connector": "mongodb"
   }
 }
