@@ -1,29 +1,17 @@
 {
-  "name": "Sensor",
+  "name": "News",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "name": {
-      "type": "string",
+    "timestamp": {
+      "type": "date",
       "required": true
     },
-    "description": {
+    "comment": {
       "type": "string"
-    },
-    "location": {
-      "type": "string"
-    },
-    "type": {
-      "type": "string"
-    },
-    "maxValue": {
-      "type": "number"
-    },
-    "minValue": {
-      "type": "number"
     }
   },
   "validations": [],
@@ -32,11 +20,6 @@
       "type": "belongsTo",
       "model": "Resource",
       "foreignKey": "resourceId"
-    },
-    "events": {
-      "type": "hasMany",
-      "model": "SensorEvent",
-      "foreignKey": ""
     }
   },
   "acls": [],

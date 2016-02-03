@@ -1,27 +1,28 @@
 {
-  "name": "SensorPost",
-  "plural": "sensor-posts",
+  "name": "SensorEvent",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
-    "table": "sensor_post"
+    "validateUpsert": true
   },
   "properties": {
-    "sensorId": {
-      "type": "string",
-      "required": true
-    },
     "value": {
       "type": "number",
       "required": true
     },
     "timestamp": {
-      "type": "number",
+      "type": "date",
       "required": true
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "sensor": {
+      "type": "belongsTo",
+      "model": "Sensor",
+      "foreignKey": "sensorId"
+    }
+  },
   "acls": [],
-  "methods": []
+  "methods": {}
 }

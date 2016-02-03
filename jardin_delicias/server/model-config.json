@@ -32,15 +32,27 @@
     "dataSource": "db",
     "public": false
   },
+  "Garden": {
+    "dataSource": "mongo",
+    "public": true
+  },
+  "News": {
+    "dataSource": "mongo",
+    "public": true
+  },
+  "Resource": {
+    "dataSource": "mongo",
+    "public": true
+  },
   "Sensor": {
     "dataSource": "mongo",
     "public": true
   },
-  "SensorData": {
+  "SensorEvent": {
     "dataSource": "mongo",
     "public": true
   },
-  "SensorPost": {
+  "GardenUser": {
     "dataSource": "mongo",
     "public": true
   }

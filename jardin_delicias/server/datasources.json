@@ -4,9 +4,9 @@
     "connector": "memory"
   },
   "mongo": {
-    "name": "mongoDB",
     "host": "104.131.1.214",
     "database": "jardin",
+    "name": "mongo",
     "connector": "mongodb"
   }
 }

@@ -1,0 +1,49 @@
+{
+  "name": "Resource",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string",
+      "required": true
+    },
+    "location": {
+      "type": "geopoint"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "sensors": {
+      "type": "hasMany",
+      "model": "Sensor",
+      "foreignKey": "sensorId"
+    },
+    "garden": {
+      "type": "belongsTo",
+      "model": "Garden",
+      "foreignKey": "gardenId"
+    },
+    "user": {
+      "type": "belongsTo",
+      "model": "GardenUser",
+      "foreignKey": "gardenUserId"
+    },
+    "news": {
+      "type": "hasMany",
+      "model": "News",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
