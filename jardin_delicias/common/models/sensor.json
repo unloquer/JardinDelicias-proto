@@ -13,6 +13,15 @@
     "description": {
       "type": "string"
     },
+    "brand": {
+      "type": "string"
+    },
+    "model": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
     "location": {
       "type": "string"
     },
