@@ -7,8 +7,10 @@ $(document).ready(function(){
    $("#J2").on('show.bs.collapse', function(){
       $("#J1").collapse('hide');
    });*/
-// check collapse states 
+// check collapse states
 
+
+// $("#J1").
 
 var storage = $.localStorage;
 
@@ -19,7 +21,7 @@ $('.collapse').on('hidden.bs.collapse', function(){
 });
 
 $('.collapse').on('shown.bs.collapse',function(){
-   
+
 
    storage.set( this.id, true);
 
@@ -42,11 +44,11 @@ $('.collapse').collapse().each(function(){
       console.log('true');
       $(this).collapse('show');
 
-   }else{
+   } else {
       console.log('false');
       $(this).collapse('hide');
    }
-   
+
 });
 
 
@@ -56,7 +58,7 @@ $('.collapse').collapse().each(function(){
       this.name = 'jardin#';
       this.items = 4;
    }
-   
+
 
    function menu(name){
       this.name = ' ';
@@ -68,4 +70,4 @@ $('.collapse').collapse().each(function(){
       var mymodalid='#'+ jardin.gardens[i].Id;
    //   console.log($("#g-control-1").data('toggle'));
    }
-}); 
+});
