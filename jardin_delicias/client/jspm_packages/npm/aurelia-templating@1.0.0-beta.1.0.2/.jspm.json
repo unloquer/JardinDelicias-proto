@@ -1,0 +1,100 @@
+{
+  "name": "aurelia-templating",
+  "version": "1.0.0-beta.1.0.2",
+  "description": "An extensible HTML templating engine supporting databinding, custom elements, attached behaviors and more.",
+  "keywords": [
+    "aurelia",
+    "templating",
+    "html",
+    "custom element",
+    "databinding"
+  ],
+  "homepage": "http://aurelia.io",
+  "bugs": {
+    "url": "https://github.com/aurelia/templating/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Rob Eisenberg",
+    "email": "rob@bluespire.com",
+    "url": "http://robeisenberg.com/"
+  },
+  "main": "aurelia-templating",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/aurelia/templating"
+  },
+  "jspmNodeConversion": false,
+  "jspm": {
+    "main": "aurelia-templating",
+    "format": "amd",
+    "directories": {
+      "lib": "dist/amd"
+    },
+    "dependencies": {
+      "aurelia-binding": "npm:aurelia-binding@^1.0.0-beta.1",
+      "aurelia-dependency-injection": "npm:aurelia-dependency-injection@^1.0.0-beta.1",
+      "aurelia-loader": "npm:aurelia-loader@^1.0.0-beta.1",
+      "aurelia-logging": "npm:aurelia-logging@^1.0.0-beta.1",
+      "aurelia-metadata": "npm:aurelia-metadata@^1.0.0-beta.1",
+      "aurelia-pal": "npm:aurelia-pal@^1.0.0-beta.1",
+      "aurelia-path": "npm:aurelia-path@^1.0.0-beta.1",
+      "aurelia-task-queue": "npm:aurelia-task-queue@^1.0.0-beta.1",
+      "core-js": "npm:core-js@^1.2.6"
+    },
+    "devDependencies": {
+      "aurelia-pal-browser": "npm:aurelia-pal-browser@^1.0.0-beta.1",
+      "babel": "npm:babel-core@^5.1.13",
+      "babel-runtime": "npm:babel-runtime@^5.1.13",
+      "core-js": "npm:core-js@^1.2.6"
+    }
+  },
+  "devDependencies": {
+    "aurelia-pal-browser": "npm:aurelia-pal-browser@^1.0.0-beta.1",
+    "babel": "npm:babel-core@^5.1.13",
+    "babel-runtime": "npm:babel-runtime@^5.1.13",
+    "core-js": "npm:core-js@^1.2.6"
+  },
+  "aurelia": {
+    "documentation": {
+      "articles": []
+    }
+  },
+  "gitHead": "848375d5d9337b34e2351d9dc1a540c3405a6367",
+  "_id": "aurelia-templating@1.0.0-beta.1.0.2",
+  "scripts": {},
+  "_shasum": "90b971e763e58d576ddb6fd652e217095241314d",
+  "_from": ".",
+  "_npmVersion": "2.10.1",
+  "_nodeVersion": "0.12.4",
+  "_npmUser": {
+    "name": "aureliaeffect",
+    "email": "info@durandal.io"
+  },
+  "dist": {
+    "shasum": "90b971e763e58d576ddb6fd652e217095241314d",
+    "tarball": "http://registry.npmjs.org/aurelia-templating/-/aurelia-templating-1.0.0-beta.1.0.2.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "aureliaeffect",
+      "email": "info@durandal.io"
+    }
+  ],
+  "directories": {
+    "lib": "dist/amd"
+  },
+  "format": "amd",
+  "registry": "npm",
+  "dependencies": {
+    "aurelia-binding": "npm:aurelia-binding@^1.0.0-beta.1",
+    "aurelia-dependency-injection": "npm:aurelia-dependency-injection@^1.0.0-beta.1",
+    "aurelia-loader": "npm:aurelia-loader@^1.0.0-beta.1",
+    "aurelia-logging": "npm:aurelia-logging@^1.0.0-beta.1",
+    "aurelia-metadata": "npm:aurelia-metadata@^1.0.0-beta.1",
+    "aurelia-pal": "npm:aurelia-pal@^1.0.0-beta.1",
+    "aurelia-path": "npm:aurelia-path@^1.0.0-beta.1",
+    "aurelia-task-queue": "npm:aurelia-task-queue@^1.0.0-beta.1",
+    "core-js": "npm:core-js@^1.2.6"
+  }
+}
