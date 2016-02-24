@@ -8,7 +8,7 @@ export class Main {
   resources = [];
 
   constructor(http) {
-    console.log("aca no!!")
+    console.log("hola");
     http.configure(config => {
       config
         .useStandardConfiguration()

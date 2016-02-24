@@ -2,10 +2,15 @@
   <div class="section">
     <div class="container">
       <div class="row">
-        <div class="col-md-12">
-          <div class="section">
-            <!-- Jardín -->
-            <div class="container">
+        <!-- Tabs -->
+        <ul class="nav nav-tabs" role="tablist">
+          <li role="presentation" class="active"><a href="#recursos" aria-controls="recursos" role="tab" data-toggle="tab">Recursos</a></li>
+          <li role="presentation"><a href="#sensores" aria-controls="sensores" role="tab" data-toggle="tab">Sensores</a></li>
+        </ul>
+        <div class="col-md-12 tab-content">
+          <!-- Jardín -->
+          <div role="tabpanel" class="section tab-pane active" id="recursos">
+            <div class="container tab-content">
               <div class="row">
                 <div class="col-md-12">
                   <h1>Inventario Jardín</h1>
@@ -98,8 +103,8 @@
               </div>
             </div>
           </div>
-          <div class="section">
-            <!-- Sensores -->
+          <!-- Sensores -->
+          <div role="tabpanel" class="section tab-pane" id="sensores">
             <div class="container">
               <div class="row">
                 <div class="col-md-12">
