@@ -4,7 +4,9 @@ export class App {
     config.map([
       { route: ['','main'], name: 'main', moduleId: './main', nav: true, title:'El Jardín de las Delicias' },
       { route: ['sensores'], name: 'sensores', moduleId: './sensores', nav: true, title:'Los Sensores' },
-      { route: ['recursos'], name: 'recursos', moduleId: './recursos', nav: true, title:'Los Recursos' }
+      { route: ['recursos'], name: 'recursos', moduleId: './recursos', nav: true, title:'Los Recursos' },
+
+      { route: ['carrusel'], name: 'carrusel', moduleId: './carrusel', nav: true, title:'Las Fotos Iniciales' }
     ]);
 
     this.router = router;
