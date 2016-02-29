@@ -1,0 +1,32 @@
+<template>
+   <section>
+      <nav class="navbar navbar-default navbar-static-top"role="navigation">
+            <div class="navbar-header">
+               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-ex-collapse">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+               </button>
+               <a class="navbar-brand" href="#"><span>${router.title}</span></a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-ex-collapse">
+               <ul class="nav navbar-nav navbar-right nav-tabs">
+                  <li repeat.for="row of router.navigation" class="${row.isActive ? 'btn-success' : ''}">
+                     <a class="btn btn-default" role="button" href.bind="row.href"><span>${row.title}</span></a>
+                  </li>
+               </ul>
+               
+               <ul class="nav navba-nav navbar-right">
+                  <li class="loader" if.bind="router.isNavigating">
+                     <i class="fa fa-spinner fa-spin fa-2x"></i>
+                  </li>
+               </ul>
+            </div>
+      </nav>
+
+      <div class="page-host">
+         <router-view></router-view>
+      </div>
+   </section>
+</template>
