@@ -1,17 +1,26 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Aurelia</title>
-    <link rel="stylesheet" href="styles/styles.css">
+    <title>Jardin Delicias</title>
+    <link rel="stylesheet" type="text/css" href="jspm_packages/github/twbs/bootstrap@3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="jspm_packages/npm/font-awesome@4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
 
-  <body>
+  <body aurelia-app>
+     
+     <div class="splash">
+        <div class="message">Jardin de las Delicias</div>
+        <i class="fa fa-spinner fa-spin"></i>
+     </div>
+
     <script src="jspm_packages/system.js"></script>
     <script src="config.js"></script>
     <script>
       // System.import('js/<%= sails.config.environment %>');
-      System.import('development');
+//      System.import('development');
+      System.import('aurelia-bootstrapper').catch(console.error.bind(console));
     </script>
   </body>
 </html>

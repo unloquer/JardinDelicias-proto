@@ -3,8 +3,8 @@ import {HttpClient} from 'aurelia-fetch-client';
 import 'fetch';
 
 @inject(HttpClient)
-export class Sensores {
-  heading = 'Github Users';
+export class Carrusel {
+/*  heading = 'Github Users';
   sensores = [];
 
   constructor(http) {
@@ -22,5 +22,5 @@ export class Sensores {
     return this.http.fetch('')
       .then(response => response.json())
       .then(sensores => this.sensores = sensores);
-  }
+  }*/
 }
