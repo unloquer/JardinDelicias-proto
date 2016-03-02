@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
 
-  <body aurelia-app>
+  <body >
      
      <div class="splash">
         <div class="message">Jardin de las Delicias</div>
@@ -17,11 +17,12 @@
 
     <script src="jspm_packages/system.js"></script>
     <script src="config.js"></script>
+    <script src="jspm_packages/github/twbs/bootstrap@3.3.6/js/bootstrap.min.js"><script>
+    <script src="jspm_packages/github/components/jquery@2.1.4.js"></script>
     <script>
       // System.import('js/<%= sails.config.environment %>');
-//      System.import('development');
+      System.import('development');
       System.import('aurelia-bootstrapper').catch(console.error.bind(console));
-      SystemJS.import('aurelia-bootstrapper');
     </script>
   </body>
 </html>

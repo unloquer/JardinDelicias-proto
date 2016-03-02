@@ -1,39 +1,7 @@
 <template>
    <section>
-       <div class="container-fluid">
-           <div id="carrusel" class="carousel slide" data-ride="carousel">
-              <!-- indicadores -->
-              <ol class="carousel-indicators">
-                 <li data-target="#carrusel" data-slide-to="0" class="active"></li>
-                 <li data-target="#carrusel" data-slide-to="1"></li>
-                 <li data-target="#carrusel" data-slide-to="2"></li>
-                 <li data-target="#carrusel" data-slide-to="3"></li>
-              </ol>
-              <!-- wraper de slides -->
-              <div class="carousel-inner" role="listbox">
-                 <div class="item active">
-                    <img class="first-slide"src="fotos/jard.jpg" alt="foto1">
-                 </div>
-                 <div class="item ">
-                    <img class="second-slide"src="fotos/jard1.jpg" alt="foto2">
-                 </div>
-                 <div class="item ">
-                    <img class="third-slide"src="fotos/jard2.jpg" alt="foto3">
-                 </div>
-                 <div class="item ">
-                    <img class="fourth-slide"src="fotos/jard3.jpg" alt="foto4">
-                 </div>
-              </div>
-              <!-- controles derecha izquierd -->
-              <a class="left carousel-control" href="#carrusel" role="button" data-slide="prev">
-                 <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                 <span class="sr-only">previous</span>
-              </a>
-              <a class="right carousel-control" href="#carrusel" role="button" data-slide="prev">
-                 <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                 <span class="sr-only">next</span>
-              </a>
-           </div>
-       </div>
+      <require from='./carrusel'></require>
+
+      <carrusel router.bind="router"></carrusel>
    </section>
 </template>

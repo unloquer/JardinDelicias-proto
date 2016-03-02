@@ -1,9 +1,12 @@
 import {inject} from 'aurelia-framework';
+import {bindable} from 'aurelia-framework';
+import { bootstrap } from 'aurelia-bootstrapper';
 import {HttpClient} from 'aurelia-fetch-client';
 import 'fetch';
 
 @inject(HttpClient)
 export class Carrusel {
+   @bindable router = null;
 /*  heading = 'Github Users';
   sensores = [];
 
