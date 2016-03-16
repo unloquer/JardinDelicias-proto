@@ -1,4 +1,5 @@
 <template>
+   <require from='bootstrap-datepicker/dist/css/bootstrap-datepicker.css'></require>
    <section>
       <div class="container-fluid">
     <!-- Jardín -->
@@ -52,12 +53,12 @@
                <form role="form">
                  <div class="form-group">
                    <label class="control-label" for="inventario-recurso">Recurso</label>
-                   <input class="form-control" id="inventario-recurso" placeholder="Recurso">
+                   <input class="form-control" id="inventario-recurso" placeholder="Recurso" value.bind='name'>
                  </div>
                  <div class="form-group">
                    <label class="control-label" for="inventario-descripcion">Descripción</label>
                    <input class="form-control" id="inventario-descripcion"
-                   placeholder="Descripción" type="text">
+                   placeholder="Descripción" value.bind='description' type="text">
                  </div>
                  <div class="form-group">
                    <label class="control-label" for="inventario-descripcion">Tipo de Recurso</label>
@@ -66,36 +67,42 @@
                      <a class="active btn btn-link dropdown-toggle" data-toggle="dropdown"> Seleccione <span class="fa fa-caret-down"></span></a>
                      <ul class="dropdown-menu" role="menu">
                        <li>
-                         <a href="#">Planta</a>
+                         <a href="#" click.trigger="tipoRecurso('planta')">Planta</a>
                        </li>
                        <li>
-                         <a href="#">Plántula</a>
+                         <a href="#" click.trigger="tipoRecurso('plantula')">Plántula</a>
                        </li>
                        <li>
-                         <a href="#">Biofertilizante</a>
+                         <a href="#" click.trigger="tipoRecurso('Biofertilizante')">Biofertilizante</a>
                        </li>
                        <li>
-                         <a href="#">Semillas</a>
+                         <a href="#" click.trigger="tipoRecurso('semilla')">Semillas</a>
                        </li>
                      </ul>
+                     <p>${type}</p>
+                     <p>${chimba()}</p>
                    </div>
                  </div>
                  <div class="form-group">
-                   <label class="control-label" for="inventario-descripcion">Fecha de Cultivo</label>
-                   <input class="form-control" id="inventario-descripcion"
-                   placeholder="Descripción" type="text">
+                   <label class="control-label" for="inventario-fecha-cultivo">Fecha de Cultivo</label>
+                   <input class="form-control" id="inventario-fecha-cultivo"
+                   placeholder="inventario-fecha-cultivo" type="text">
                  </div>
+                 
                  <div class="form-group">
-                   <label class="control-label" for="inventario-recurso">Foto</label>
-                   <input class="form-control" id="inventario-recurso" placeholder="Foto"
+                   <label class="control-label" for="inventario-foto">Foto</label>
+                   <input class="form-control" id="inventario-foto" placeholder="Foto"
                    type="text">
                  </div>
-                 <button type="submit" class="btn btn-default">Submit</button>
+                 <button type="submit" class="btn btn-default" click.trigger="save()">Submit</button>
                </form>
              </div>
            </div>
          </div>
        </div>
       </div>
+      <br>${name} </br>
+      <br>${description} </br>
+      <br>${type} </br>
    </section>
 </template>
