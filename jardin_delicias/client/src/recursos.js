@@ -39,7 +39,7 @@ export class Recursos {
   sensores = [];*/
 
   constructor(http) {
-    console.log("estoy en sensores");
+    console.log("estoy en recursos");
     http.configure(config => {
       config
         .useStandardConfiguration()
