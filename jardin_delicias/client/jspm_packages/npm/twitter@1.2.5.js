@@ -1,0 +1,1 @@
+module.exports = require("npm:twitter@1.2.5/lib/twitter");
